@@ -276,8 +276,8 @@ class ksUser {
     }
   }
   async ksAdParam(ad) {
-    let url =
-      'https://api.e.kuaishou.com/rest/e/v1/reward/ad?kpf=ANDROID_PHONE&kpn=NEBULA';
+   // let url = 'https://api.e.kuaishou.com/rest/e/v1/reward/ad?kpf=ANDROID_PHONE&kpn=NEBULA';
+    let url = 'https://raw.githubusercontent.com/jagyfu/scripts/main/ksjsbad.json'
     let body =
       'sign=5a54eecde4d4ea61a6cd9ace41671ffe9bfbe19267a80ebf38b2ebbcf180dbce&encData=WlTuzeTU6mGT9525bjJUVnlteAAERH1jgjAw%2BtDz1mbNDjuupHdJY0pKd7s5mx8%2BXMRRi7MCE3BSy1NNxI6bywhQueJl4YV8QDNsCONuMI7m59XX7rycrXz5ZPbObMBFLp23dqIF86Do53AbF3u4Dd2Vsk%2B1BzkhUIjucpA2gZ6g837f5Wz19RFfZ9m0pIuu8qg0EFbwOhyvbnybXJXFHahBNDH%2BfHB3V63CQuUJV6MSpBlFU6%2BDiPwORLmSR81ZkexYHIeTr2JJuBORB213unw3vAu8ivWxOqDlvosV1TwGeh5jRJ0L6nOzY4U1NeRbcdIccB9q0MGnVbaEA3xfCcV0cEGFB4gNHva4uWbSRI5BprFKt%2BIR1qNS9dBoJCaXUCZdA8Iy%2FXwz95700n4l98a9e0fAsnip7ehHiRCNVs7QSEMghZyZDAIUgSZuwq3KGPs8oIYPwNCiJVh2xbgMD8hqrJMR8TLgHpe%2FN8vnOSP0I1F3ZwXHWd%2F7nAuFbynwkvAZ0VonobJugzvyKjRmoJhi%2BQBlnOIV9GGpDBWprlbEmer2RVDv4AB9bt0hrbMF03hLmz8evpGwYQwm7pznXWYSwayxLHxrErKcaf9qBENiokJBq8FTLjHGKx2em0yOeaA2%2FtsoQo9qXnMLp2qLu7vbrsNam1V%2BqdqzejegRJ3WyFhGZMubHbxbs%2BGciQtghXh9jEKxHU6oJQMGWJXRmBQ%2BiqzwHTjcLnJQP3KfYoFwiDc3LnW06YOImWP0vKZcWaNIZQi%2Fw9G4JwQc3nWl11s4rJtpquoEn5Dbm%2BQzSTWyPIYeSIVR5XNmbmU%2FrkX89YDT6sTQbBgURhG4pZdFcFDeOc5yq81racNxL4VbybaCg%2Fd2bEnp9HPQ3tF2W%2FX6zpf1mcE7Acz%2F%2FtSIG3HYOaZZP7FIj70q';
     let options = getOptions(url, this.cookie, body);
