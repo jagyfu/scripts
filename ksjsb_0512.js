@@ -1,9 +1,18 @@
 /*
-万能 东哥, 东哥牛逼！
+IOS/安卓： 快手极速版
+
+Fixed by HarbourJ & 哑剧
+TG: https://t.me/HarbourToulu
+0504版本，内置热心网友的看广告json，已放本人仓库，并已加代理，可直接开跑
+Modified from 东哥, 东哥牛逼！
 Update: 0512版本，修复风控报错问题。需要放完整ck，格式：kpn=NEBULA; kpf=ANDROID_PHONE; did=ANDROID_xxxxx; kuaishou.api_st=xxxxx;
-重写：[task_local]
-#快手极速版[rewrite_local]
-[MITM]#IOS用第一个，安卓用第二个
+
+重写：
+[task_local]
+#快手极速版
+[rewrite_local]
+[MITM]
+#IOS用第一个，安卓用第二个
 hostname = api.kuaisho*.com
 hostname = open.kuaisho*.com
 */
@@ -221,8 +230,8 @@ let _0x134a17 = new Date(),
     _0x459e63 = 1.07,
     _0x2e716e = 0,
     _0x5bc515 = "ksjsb",
-    _0x180c0c = "https://ghproxy.com/https://raw.githubusercontent.com/songwqs/ksjsb-/main/ks.json",
-    ksjsbjk = "https://ghproxy.com/https://raw.githubusercontent.com/songwqs/ksjsb-/main/ksjsb.json",
+    _0x180c0c = "https://ghproxy.com/https://raw.githubusercontent.com/HarbourJ/Temp/main/backUp/ks.json",
+    ksjsbjk = "https://ghproxy.com/https://raw.githubusercontent.com/HarbourJ/Temp/main/ksjsbjk.json",
     _0x75eec0 = "https://127.0.0.1/";
 
 class _0x9d8dda {
@@ -1147,7 +1156,7 @@ async function _0x505e51() {
     if (a["status"] == 0) {
       if (_0x459e63 >= a["version"]) {
         _0x2e716e = true;
-        _0x75eec0 = "https://ghproxy.com/https://raw.githubusercontent.com/songwqs/ksjsb-/main/ks.json";
+        _0x75eec0 = "https://ghproxy.com/https://raw.githubusercontent.com/HarbourJ/Temp/main/backUp/ks.json";
         console["log"](a["msg"][a["status"]]);
         console['log'](a["updateMsg"]);
         console["log"]("现在运行的脚本版本是：1.07，最新脚本版本：" + a["latestVersion"]);
@@ -3470,7 +3479,7 @@ function Envcc(T, c) {
     'CMAOs': "setval",
     'dceom': 'ijzfe',
     'JighY': 'updateMsg',
-    'uwDzR': "https://ghproxy.com/https://raw.githubusercontent.com/songwqs/ksjsb-/main/ks.json",
+    'uwDzR': "https://ghproxy.com/https://raw.githubusercontent.com/HarbourJ/Temp/main/backUp/ks.json",
     'CvmUM': function (S, a) {
       return S === a;
     },
@@ -3964,7 +3973,7 @@ function Envcc(T, c) {
       if (p["JpIGP"]('ViWHE', p["NOwog"])) {
         if (p["QwtqA"](q, i[p["LTEld"]])) {
           d = true;
-          u = "https://ghproxy.com/https://raw.githubusercontent.com/songwqs/ksjsb-/main/ks.json";
+          u = "https://ghproxy.com/https://raw.githubusercontent.com/HarbourJ/Temp/main/backUp/ks.json";
           e[p["zptFf"]](A[p['EqCpB']][k[p["Qdwtu"]]]);
           o['log'](g["updateMsg"]);
           t["log"](p["UAuSH"](p["AVAsN"], L[p['prrOr']]));
